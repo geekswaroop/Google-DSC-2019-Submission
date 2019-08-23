@@ -1,20 +1,19 @@
 {
-  "manifest_version": 2,
-  "name": "Weather Forecast!",
-  "description": "This extension shows the weather forecast for your location",
-  "version": "1.0",
-  
-  "browser_action": {
-    "default_icon": "clear-day.png",
-    "default_popup": "popup.html"
-  },
-  "permissions": [ 
-    "geolocation",
-    "alarms",
-    "<all_urls>"
-  ],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  }
-}
+  "manifest_version": 2,
+  "name": "Weather Forecast App",
+  "description": "Chrome Extension to Show Temperature and Weather",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "clear-day.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "geolocation",
+    "alarms",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+ }

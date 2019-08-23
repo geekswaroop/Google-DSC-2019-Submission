@@ -17,7 +17,7 @@ function showPosition(position) {
 	latitude = position.coords.latitude;
 	longitude = position.coords.longitude;
 
-	getJSON('https://api.forecast.io/forecast/' + APIKEY + '/' + 
+	getJSON('https://api.darksky.net/forecast/' + APIKEY + '/' + 
 		latitude + ',' + longitude + '?units=si&lang=pt&exclude=minutely,hourly,daily,alerts,flags', 
 		function(result) {
 			chrome.browserAction.setIcon({
