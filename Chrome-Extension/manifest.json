@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Weather Forecast App",
-  "description": "Chrome Extension to Show Temperature and Weather",
+  "description": "Chrome Extension to Show Temperature and Weather Condtions",
   "version": "1.0",
   "browser_action": {
     "default_icon": "clear-day.png",
