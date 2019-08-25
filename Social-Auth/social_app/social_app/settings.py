@@ -117,7 +117,19 @@ SOCIAL_AUTH_FACEBOOK_SECRET = 'ba2b1359b870f48bb5dcdb75e15c2c4b'
 
 SOCIAL_AUTH_INSTAGRAM_KEY = 'af32f1268e4e424dba8981cffa937b06'
 SOCIAL_AUTH_INSTAGRAM_SECRET = '1ceb5dc0333e45b98d4aa3c514175446'
-SOCIAL_AUTH_INSTAGRAM_EXTRA_DATA = []
+SOCIAL_AUTH_INSTAGRAM_EXTRA_DATA = [('user','user'),]
+
+SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '818mv88ek3b8n4'         #Client ID
+SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = '5IjBJtZxv81zeasr'  #Client Secret
+SOCIAL_AUTH_LINKEDIN_OAUTH2_SCOPE = ['r_basicprofile', 'r_emailaddress']
+SOCIAL_AUTH_LINKEDIN_OAUTH2_FIELD_SELECTORS = ['email-address', 'formatted-name', 'public-profile-url', 'picture-url']
+SOCIAL_AUTH_LINKEDIN_OAUTH2_EXTRA_DATA = [
+        ('id', 'id'),
+        ('formattedName', 'name'),
+        ('emailAddress', 'email_address'),
+        ('pictureUrl', 'picture_url'),
+        ('publicProfileUrl', 'profile_url'),
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
