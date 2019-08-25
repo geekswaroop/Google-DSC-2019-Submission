@@ -107,6 +107,17 @@ AUTHENTICATION_BACKENDS = [
         'social_core.backends.facebook.FacebookOAuth2',
         'django.contrib.auth.backends.ModelBackend',
 ]
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_URL = 'logout'
+LOGOUT_REDIRECT_URL = 'login'
+
+SOCIAL_AUTH_FACEBOOK_KEY = '401853957119652'
+SOCIAL_AUTH_FACEBOOK_SECRET = 'ba2b1359b870f48bb5dcdb75e15c2c4b'
+
+SOCIAL_AUTH_INSTAGRAM_KEY = 'af32f1268e4e424dba8981cffa937b06'
+SOCIAL_AUTH_INSTAGRAM_SECRET = '1ceb5dc0333e45b98d4aa3c514175446'
+SOCIAL_AUTH_INSTAGRAM_EXTRA_DATA = []
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
