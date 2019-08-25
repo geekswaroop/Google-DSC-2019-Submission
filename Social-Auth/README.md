@@ -4,7 +4,7 @@
 
 Web App built on Django which showcases the social authentication of 3 Social Network Providers namely, Linkedin, Facebook and Instagram. Built using the social-auth-app-django library with minimal configuration.
 
-Mentor: [Manan Poddar](https://github.com/mananpoddar)
+**Mentor**: [Manan Poddar](https://github.com/mananpoddar)
 
 ### Requirements
 
@@ -43,21 +43,24 @@ Mentor: [Manan Poddar](https://github.com/mananpoddar)
 
    ```
    python manage.py runserver 
-   ```
-
-   Visit the browser at *`localhost:8000/`*
-
+   
+```
+   
+Visit the browser at *`localhost:8000/`*
    
 
-   ### Privacy Policy
-
-   The privacy policy for the apps can be found [here](https://www.termsfeed.com/privacy-policy/7c58682e74e3f9ff4c1e5c4af7cc3982) 
-
    
+### Privacy Policy
    
-   Screenshots:
+The privacy policy for the apps can be found [here](https://www.termsfeed.com/privacy-policy/7c58682e74e3f9ff4c1e5c4af7cc3982) 
    
+   ### Screenshots:
    
+   ![](assets/sign-in.png)
+   
+   ![](assets/instagram.png)
+   
+   ![](assets/linkedin.png)
    
    ### References:
    
